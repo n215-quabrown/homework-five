@@ -1,0 +1,27 @@
+{
+  "name": "inclassfeb22",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "server": "live-server",
+    "compile:sass": "sass scss/styles.scss css/styles.css -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.49.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n215-quabrown/homework-five.git"
+  },
+  "bugs": {
+    "url": "https://github.com/n215-quabrown/homework-five/issues"
+  },
+  "homepage": "https://github.com/n215-quabrown/homework-five#readme",
+  "description": ""
+}
