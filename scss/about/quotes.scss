@@ -1,6 +1,6 @@
 .quotes {
     margin: 100px auto 0 auto;
-    width: $siteWidth;
+    max-width: $siteWidth;
     h2 {
         font-family: ProximaNovaSC;
         font-size: 40px;
@@ -27,6 +27,27 @@
             font-family: ProximaNovaSC;
             font-size: 20px;
             color: $siteBlue;
+        }
+    }
+}
+
+@media screen and (max-width: $siteWidth) {
+    .quotes {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 716px) {
+    .quotes {
+        .quoteTile {
+            width: 400px;
+            img {
+                width: 160px;
+            }
+            p {
+                width: 220px;
+                font-size: 12px;
+            }
         }
     }
 }

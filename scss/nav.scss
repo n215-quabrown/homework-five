@@ -55,3 +55,12 @@ nav {
     }
     border-bottom: 2px solid $siteBlack;
 }
+
+@media screen and (max-width: $siteWidth) {
+    nav {
+        padding: 0 20px;
+        span {
+            margin: 0 5px;
+        }
+    }
+}

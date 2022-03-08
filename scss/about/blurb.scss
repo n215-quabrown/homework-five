@@ -1,6 +1,6 @@
 .blurb {
     margin: 100px auto 0 auto;
-    width: $siteWidth;
+    max-width: $siteWidth;
     h1 {
         font-family: ProximaNovaSC;
         font-size: 60px;
@@ -9,5 +9,11 @@
     p {
         font-family: GillSans;
         font-size: 16px;
+    }
+}
+
+@media screen and (max-width: $siteWidth) {
+    .blurb {
+        padding: 20px;
     }
 }

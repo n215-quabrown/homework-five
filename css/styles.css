@@ -75,6 +75,114 @@ nav .links span {
   color: #000000;
 }
 
+@media screen and (max-width: 980px) {
+  nav {
+    padding: 0 20px;
+  }
+  nav span {
+    margin: 0 5px;
+  }
+}
+.tourTile {
+  width: 236px;
+  height: 304px;
+  margin: 27.5px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+}
+.tourTile h1 {
+  font-family: ProximaNovaSC;
+  font-size: 60px;
+  margin-bottom: -5px;
+}
+.tourTile h2 {
+  font-family: ProximaNovaSC;
+  font-size: 30px;
+  margin-bottom: 56px;
+}
+.tourTile .button {
+  width: 133px;
+  height: 40px;
+  background-color: #79ADDC;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: GillSans;
+  font-size: 15px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+footer {
+  max-width: 1280px;
+  height: 100px;
+  margin: 100px auto 0 auto;
+  background-color: #79ADDC;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #FFFFFF;
+  font-family: GillSans;
+}
+footer .logo {
+  width: 92px;
+  height: 42px;
+  border: 2px solid #FFFFFF;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+footer .copyright {
+  font-size: 12px;
+}
+footer .icons {
+  font-size: 23px;
+}
+
+.australia {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../images/australia/australia-hero.jpg);
+}
+
+.canada {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../images/canada/canada-hero.jpg);
+}
+
+.egypt {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../images/egypt/egypt-hero.jpg);
+}
+
+.france {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../images/france/france-hero.jpg);
+}
+
+.israel {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../images/israel/israel-hero.jpg);
+}
+
+.japan {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../images/japan/japan-hero.jpg);
+}
+
+.newZealand {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../images/newZealand/newZealand-hero.jpg);
+}
+
+.unitedArabEmirates {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../images/unitedArabEmirates/unitedArabEmirates-hero.jpg);
+}
+
+.unitedStatesOfAmerica {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../images/unitedStatesOfAmerica/unitedStatesOfAmerica-hero.jpg);
+}
+
 header {
   max-width: 1280px;
   height: 500px;
@@ -234,104 +342,74 @@ header .button {
     flex-direction: column;
   }
 }
-.tourTile {
-  width: 236px;
-  height: 304px;
-  margin: 27.5px;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: #FFFFFF;
+.blurb {
+  margin: 100px auto 0 auto;
+  max-width: 980px;
 }
-.tourTile h1 {
+.blurb h1 {
   font-family: ProximaNovaSC;
   font-size: 60px;
-  margin-bottom: -5px;
+  text-decoration: underline;
 }
-.tourTile h2 {
-  font-family: ProximaNovaSC;
-  font-size: 30px;
-  margin-bottom: 56px;
-}
-.tourTile .button {
-  width: 133px;
-  height: 40px;
-  background-color: #79ADDC;
-  border-radius: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.blurb p {
   font-family: GillSans;
-  font-size: 15px;
-  text-decoration: none;
-  color: #FFFFFF;
+  font-size: 16px;
 }
 
-footer {
-  max-width: 1280px;
-  height: 100px;
-  margin: 100px auto 0 auto;
-  background-color: #79ADDC;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  color: #FFFFFF;
-  font-family: GillSans;
+@media screen and (max-width: 980px) {
+  .blurb {
+    padding: 20px;
+  }
 }
-footer .logo {
-  width: 92px;
-  height: 42px;
-  border: 2px solid #FFFFFF;
-  font-size: 20px;
+.quotes {
+  margin: 100px auto 0 auto;
+  max-width: 980px;
+}
+.quotes h2 {
+  font-family: ProximaNovaSC;
+  font-size: 40px;
+  text-decoration: underline;
+}
+.quotes .quoteTile {
+  height: 150px;
+  width: 676px;
+  margin-top: 37px;
   display: flex;
-  justify-content: center;
+  flex-flow: column wrap;
+  justify-content: space-between;
   align-items: flex-end;
 }
-footer .copyright {
-  font-size: 12px;
+.quotes .quoteTile img {
+  width: 260px;
 }
-footer .icons {
-  font-size: 23px;
+.quotes .quoteTile p {
+  width: 358px;
+  font-family: GillSans;
+  font-size: 16px;
+  font-style: italic;
 }
-
-.australia {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../images/australia/australia-hero.jpg);
-}
-
-.canada {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../images/canada/canada-hero.jpg);
-}
-
-.egypt {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../images/egypt/egypt-hero.jpg);
+.quotes .quoteTile h3 {
+  font-family: ProximaNovaSC;
+  font-size: 20px;
+  color: #79ADDC;
 }
 
-.france {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../images/france/france-hero.jpg);
+@media screen and (max-width: 980px) {
+  .quotes {
+    padding: 20px;
+  }
 }
-
-.israel {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../images/israel/israel-hero.jpg);
-}
-
-.japan {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../images/japan/japan-hero.jpg);
-}
-
-.newZealand {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../images/newZealand/newZealand-hero.jpg);
-}
-
-.unitedArabEmirates {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../images/unitedArabEmirates/unitedArabEmirates-hero.jpg);
-}
-
-.unitedStatesOfAmerica {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../images/unitedStatesOfAmerica/unitedStatesOfAmerica-hero.jpg);
+@media screen and (max-width: 716px) {
+  .quotes .quoteTile {
+    width: 400px;
+  }
+  .quotes .quoteTile img {
+    width: 160px;
+  }
+  .quotes .quoteTile p {
+    width: 220px;
+    font-size: 12px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
