@@ -3,8 +3,8 @@ https://in-info-web4.informatics.iupui.edu/~quabrown/homework-five/
 ## This is the second page of travel-fly, about
 #### Purpose 
 This homework assignment will:
-- Teach you how to make your site responsive
-- Teach you how to deal with images next to text. 
+- Teach how to make a responsive site
+- Teach how to deal with images next to text. 
 - Use media queries
 - Use percentages
  
